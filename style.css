@@ -73,10 +73,36 @@ section {
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-
+.navbar .menu li a:hover {
+    color: #e8960f;
+}
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
 
 /* Home */
 .home {
     display: flex;
-    background: url('images/');
+    background: url('Images/background.jpg');
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'ubuntu', sans-serif;
+}
+.home .max-width {
+    width: 100%;
+    display: flex;
+}
+.max-width .icons i{
+    border-radius: 10%;
+    font-size: 2rem;
+    margin: 10px;
+}
+.max-width .icons i:hover {
+    color: #e8960f;
 }
