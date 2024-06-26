@@ -102,7 +102,43 @@ section {
     border-radius: 10%;
     font-size: 2rem;
     margin: 10px;
+    cursor: pointer;
 }
 .max-width .icons i:hover {
     color: #e8960f;
+}
+
+.home .home-content {
+    margin-top: 5%;
+}
+.home .home-content .text-1 {
+    font-size: 28px;
+}
+.home .home-content .text-2 {
+    font-size: 75px;
+}
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span {
+    color: #e8960f;
+    font-weight: 500;
+}
+button {
+    display: inline-block;
+    background: #e8960f;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #e8960f;
+    transition: all 0.3s ease;
+}
+button:hover {
+    color: #e8960f;
+    background: none;
 }
