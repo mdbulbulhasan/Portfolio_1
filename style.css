@@ -195,6 +195,12 @@ button:hover {
     background: #21232c;
     color: #fff;
 }
+.text-p1 {
+    text-align: center;
+}
+p{
+    color: #999;
+}
 section .title {
     position: relative;
     text-align: center;
@@ -228,7 +234,7 @@ section .title {
 .about .about-content .right .text span {
     color: #e8960f;
 }
-..about .about-content .right .text p {
+.about .about-content .right .text p {
     text-align: justify;
     color: #999;
 }
