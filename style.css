@@ -197,6 +197,10 @@ button:hover {
 }
 .text-p1 {
     text-align: center;
+    margin: 10px auto;
+    width: 100px;
+    border-bottom: 1px solid #999;
+
 }
 p{
     color: #999;
@@ -239,3 +243,48 @@ section .title {
     color: #999;
 }
 /* About Section End */
+
+/* My Services Section Start */
+.service-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.services, .teams {
+    color: #fff;
+    background: #111;
+}
+.services .service-content .card {
+    width: calc(33% - 40px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .title::before,
+.teams .title::before {
+    background: #fff;
+}
+.services .service-content .card:hover {
+    background: #e8960f;
+    color: #fff;
+}
+.services .service-content .card p {
+    color: #fff;
+}
+.services .service-content .box {
+    transition: all 0.3s ease;
+}
+.services .service-content .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .service-content i {
+    color: #fff;
+    font-size: 25px;
+}
+/* My Services Section End */
