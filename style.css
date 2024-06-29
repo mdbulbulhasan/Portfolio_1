@@ -293,6 +293,10 @@ section .title {
 .skill {
     background: rgba(33, 35, 44, 1);
 }
+.skill .title {
+    color: #fff;
+    border-bottom: 0.1rem solid #fff;
+}
 .article-container .icon {
     cursor: pointer;
     height: 2rem;
