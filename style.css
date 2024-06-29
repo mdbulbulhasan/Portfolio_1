@@ -355,8 +355,8 @@ article {
 .work .box-container .box {
     height: 20rem;
     flex: 1 1 30rem;
-    border: 2rem solid #fff;
-    border-radius: .5rem;
+    border: .5rem solid #362e2e;
+    border-radius: 0.5rem;
     position: relative;
     overflow: hidden;
 }
@@ -364,6 +364,7 @@ article {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 0.5rem;
 }
 .work .box-container .box .content {
     position: absolute;
@@ -378,6 +379,15 @@ article {
     text-align: center;
 }
 .work .box-container .box:hover .content {
-    transform: translate(-50%, -50%) scale(0.7);
+    transform: translate(-50%, -50%) scale(1);
+}
+.work .box-container .box .content h3 {
+    font-size: 1rem;
+    color: #666;
+}
+.work .box-container .box .content p {
+    font-size: 1rem;
+    color: #666;
+    padding: 1rem 0 0;
 }
 /* Work Section End */
