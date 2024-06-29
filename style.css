@@ -288,3 +288,51 @@ section .title {
     font-size: 25px;
 }
 /* My Services Section End */
+
+/* Skill Section Start */
+.skill {
+    background: rgba(33, 35, 44, 1);
+}
+.article-container .icon {
+    cursor: pointer;
+    height: 2rem;
+}
+.about-container {
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.about-container {
+    display: flex;
+}
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: #fff;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+}
+.sub-title {
+    color: rgb(85,85,85);
+    text-align: center;
+}
+.experience-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-between;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+/* Skill Section End */
