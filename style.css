@@ -320,6 +320,8 @@ section .title {
 .sub-title {
     color: rgb(85,85,85);
     text-align: center;
+    border-bottom: 0.1rem solid #111;
+    margin: 20px;
 }
 .experience-container {
     display: flex;
@@ -340,3 +342,42 @@ article {
     gap: 0.5rem;
 }
 /* Skill Section End */
+
+/* Work Section Start */
+.work {
+    background: #4a5c62;
+}
+.work .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.work .box-container .box {
+    height: 20rem;
+    flex: 1 1 30rem;
+    border: 2rem solid #fff;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+}
+.work .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.work .box-container .box .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .9);
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+.work .box-container .box:hover .content {
+    transform: translate(-50%, -50%) scale(0.7);
+}
+/* Work Section End */
