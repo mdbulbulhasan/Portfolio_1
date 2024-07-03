@@ -391,3 +391,50 @@ article {
     padding: 1rem 0 0;
 }
 /* Work Section End */
+
+/* Demo work Details Start  */
+.website {
+    background: #21232c;
+    height: 100vh;
+    width: 100%;
+}
+.website .title1 {
+    border-bottom: 0.1rem solid #a19f9f;
+    width: 350px;
+    text-align: left;
+    color: #fff;
+}
+.website img {
+    position: absolute;
+    height: 350px;
+    width: 500px;
+    margin-left: 100px;
+}
+.website ul li {
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.website h5 {
+    margin-top: 20px;
+    font-weight: normal;
+    width: 600px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.website .icon {
+    border-top: 0.1rem solid #a19f9f;
+    width: 300px;
+    font-size: 25px;
+}
+.website .icon i {
+    margin: 10px;
+    color: #fff;
+}
+.website i:hover {
+color: red;
+}
+/* Demo work Details End  */
