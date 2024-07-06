@@ -575,5 +575,29 @@ font-family: 'poppins' sans-serif;
     font-family: 'poppins' sans-serif;
     transition: all .3s ease;
 }
+.contact .right  form .field input:focus,
+.contact .right form .textarea textarea:focus {
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
 /* Contact Form End */
+
+/* Footer Section Start */
+footer {
+    background: #111;
+    padding: 15px 23px;
+    text-align: center;
+    color: #fff;
+}
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
+/* Footer Section End */
 
